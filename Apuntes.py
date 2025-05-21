@@ -15,8 +15,11 @@
 #@ git stash pop (es para volver al git stash que guardaste)
     # git stash drop (para cancelar un stash guardado)
 #@ git push -u origin main (push sube lo local a la nube, desde origin, nombre local del repositorio por defecto, a main, nombre por defecto a la rama nube por defecto)
-    #Despues con git push es suficiente.
-    # git pull (vale para descargar la parte remoto a la local, nomalmente requiere un merge)
+    #Despues con git push es suficiente.   
+    # git fetch (te permite descarga remoto para poder comprobarlo pero sin afectar al local)
+     # git pull (vale para descargar la parte remoto a la local, nomalmente requiere un merge)
+     # con git pull en muchas ocasiones hace un merge que habre Editor Vim, si quieres esquibir pulsa i, despues tanto si escribes como si no dale a ESC 
+     # Una vez dado ESC dale a :q para salir,:wq para guardar lo escrito y :q! para cancelar el merge
 
 
 
