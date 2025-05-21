@@ -14,6 +14,7 @@
 #@ dit stash (es como un commit local para seguir con trabajo a medias)
 #@ git stash pop (es para volver al git stash que guardaste)
     # git stash drop (para cancelar un stash guardado)
+# git push -u origin main (push sube lo local a la nube, desde origin, nombre local del repositorio por defecto, a main, nombre por defecto a la rama nube por defecto)
 
 
 
