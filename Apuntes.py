@@ -7,5 +7,12 @@
 # git diff (te informa de los cambios en los ficheros ya guardados respecto a los actuales. Ignora aquellos de los que no haya guardados)
 # --x  cuando se ponen dos guiones es un parametro, los que tienen solo uno -m son abreviaturas en este caso realmente es --message
 #git log muestra los cambios, deflog muestra todo
+#@git brach x (genera una nueva rama que se llame x desde el commit en el que estes)
+    #@   git switch x (cambia a una rama ya creada)  
+#@ dit stash (es como un commit local para seguir con trabajo a medias)
+#@ git stash pop (es para volver al git stash que guardaste)
+    # git stash drop (para cancelar un stash guardado)
+
+
 
 print ("Apuntes")
